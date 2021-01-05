@@ -1,0 +1,253 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-back',
+  templateUrl: './back.component.html',
+  styleUrls: ['./back.component.css']
+})
+export class BackComponent implements OnInit {
+
+  issubmit=false;
+  score=0;
+  cat=false;
+  elephant=false;
+  goat=false;
+  lion=false;
+  rabbit=false;
+  tiger=false;
+  mouse=false;
+  cow=false;
+  horse=false;
+  wolf=false;
+  A=false;
+  B=false;
+  C=false;
+  D=false;
+  E=false;
+  F=false;
+  G=false;
+  H=false;
+  I=false;
+  J=false;
+  K=false;
+  L=false;
+  M=false;
+  N=false;
+  O=false;
+  P=false;
+  Q=false;
+  R=false;
+  S=false;
+  T=false;
+  U=false;
+  V=false;
+  W=false;
+  X=false;
+  Y=false;
+  Z=false;
+  correct=0;
+  incorrect=0;
+
+  
+
+
+
+  constructor() { }
+
+  ngOnInit(): void {
+
+    this.score=0;
+    this.issubmit=false;
+    this.cat=false;
+    this.elephant=false;
+    this.goat=false;
+    this.lion=false;
+    this.rabbit=false;
+    this.tiger=false;
+    this.mouse=false;
+    this.cow=false;
+    this.horse=false;
+    this.wolf=false;
+    this.A=false;
+    this.B=false;
+    this.C=false;
+    this.D=false;
+    this.E=false;
+    this.F=false;
+    this.G=false;
+    this.H=false;
+    this.I=false;
+    this.J=false;
+    this.K=false;
+    this.L=false;
+    this.M=false;
+    this.N=false;
+    this.O=false;
+    this.P=false;
+    this.Q=false;
+    this.R=false;
+    this.S=false;
+    this.T=false;
+    this.U=false;
+    this.V=false;
+    this.W=false;
+    this.X=false;
+    this.Y=false;
+
+    this.correct=0;
+    this.incorrect=0;
+    
+  }
+
+  onSubmit(value:any)
+  {
+    
+    if(this.cat==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.elephant==true)
+    {
+      this.correct=this.correct+1;
+
+    }
+    if(this.goat==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.lion==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.rabbit==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.tiger==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.mouse==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.cow==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.horse==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.wolf==true)
+    {
+      this.correct=this.correct+1;
+    }
+    if(this.A==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.B==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.C==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.D==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.E==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.F==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.G==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.H==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.I==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.J==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.K==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.L==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.M==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.N==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.O==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.P==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.Q==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.R==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.S==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.T==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.U==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.V==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.W==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.X==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+    if(this.Y==true)
+    {
+      this.incorrect=this.incorrect+1;
+    }
+
+    this.issubmit=true;
+    this.score=this.correct-this.incorrect;
+    console.log(this.correct);
+    console.log(this.incorrect);
+  }
+
+}

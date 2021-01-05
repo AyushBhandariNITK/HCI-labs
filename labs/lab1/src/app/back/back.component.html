@@ -1,0 +1,285 @@
+
+<div *ngIf="!issubmit" class="container-fluid">
+    <br>
+    <h3 style="color: rgb(216, 73, 17);text-align: center;">Please select all the animals what you have seen in earlier page</h3>
+    <br>
+    <form #userform="ngForm" (ngSubmit)="onSubmit(userform.value)">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="tiger" [(ngModel)]="tiger">Tiger
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="A" [(ngModel)]="A">Monkey
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="B" [(ngModel)]="B">Crow
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="goat" [(ngModel)]="goat">Goat
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="C" [(ngModel)]="C">Bear
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="D" [(ngModel)]="D">Dog
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="E" [(ngModel)]="E">Camel
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="horse" [(ngModel)]="horse">Horse
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="F" [(ngModel)]="F">Donkey
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="G" [(ngModel)]="G">Koala
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="H" [(ngModel)]="H">Ant
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="lion" [(ngModel)]="lion">Lion
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="I" [(ngModel)]="I">Rat
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="J" [(ngModel)]="rabbit">Rabbit
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="mouse" [(ngModel)]="mouse">Mouse
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="K" [(ngModel)]="K">Snake
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="L" [(ngModel)]="elephant">Elephant
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="M" [(ngModel)]="M">Buffalo
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="N" [(ngModel)]="N">Fox
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="O" [(ngModel)]="cat">Cat
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="P" [(ngModel)]="P">Otter
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="cow" [(ngModel)]="cow">Cow
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="Q" [(ngModel)]="Q">Peacock
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="R" [(ngModel)]="R">Seal
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="wolf" [(ngModel)]="wolf">Wolf
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+<!--             <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="S" [(ngModel)]="S">Shark
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="T" [(ngModel)]="T">Sheep
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="U" [(ngModel)]="U">Fish
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="V" [(ngModel)]="V">Frog
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="W" [(ngModel)]="W">Vulture
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="elephant" [(ngModel)]="elephant">Elephant
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="X" [(ngModel)]="X">Zebra
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="rabbit" [(ngModel)]="rabbit">Rabbit
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="cat" [(ngModel)]="cat">Cat
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label class="btn btn-primary">
+                            <input type="checkbox" name="Y" [(ngModel)]="Y">Yak
+                        </label>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+            
+        </div>
+        
+        
+        <p style="text-align: center;"><button style="text-align: center;" type="submit" class="btn btn-success">Enter</button></p>
+      </form>
+
+      
+</div>
+<div *ngIf="issubmit">
+    <br><br>
+    <h3 style="text-align: center; color: green;">Correct:<span style="color: black;">&nbsp;&nbsp;{{this.correct}}</span></h3>
+    <h3 style="text-align: center;color: red;">Incorrect:<span style="color: black;">&nbsp;&nbsp;{{this.incorrect}}</span></h3>
+    <hr>
+    <h4 style="text-align: center;color: blue;">Score:<span style="color: black;">&nbsp;&nbsp;{{this.score}}</span></h4>
+
+</div>
+ 
